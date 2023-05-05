@@ -1,0 +1,64 @@
+* {
+   margin: 0;
+   padding: 0;
+   box-sizing: border-box; 
+}
+
+#meuFormulario {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    background-color: #88A3E2;
+    color: #fff;
+    height: 250px;
+    margin: 100px auto;
+    max-width: 640px;
+    width: 100%;
+}
+
+#meuFormulario label{
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+
+#meuFormulario input{
+    border-radius: 5px;
+    border: none;
+    padding: 5px;
+    margin-top: 5px;
+}
+
+#meuFormulario button {
+    border: none;
+    cursor: pointer;
+    background-color: #B7A6F6; 
+    border-radius: 5px;
+    color: white;
+    padding: 15px 32px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 16px;
+    transition: 500ms;
+}
+
+#meuFormulario button:hover {
+    background-color: #ab96f8;
+}
+
+.mensagem-positiva {
+    text-align: center;
+    margin: auto;
+    background-color: #03A64A;
+    color: #fff;
+    padding: 15px 40px;
+    width: 25%;
+}
+.mensagem-negativa {
+    text-align: center;
+    margin: auto;
+    background-color: #D92525;
+    color: #fff;
+    padding: 15px 40px;
+    width: 25%;
+}
