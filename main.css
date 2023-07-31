@@ -1,0 +1,58 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box; 
+    background-color: #8d99ae;
+}
+
+body {
+font-family: 'Press Start 2P', cursive;
+}
+
+h1 {
+    margin-bottom: 20px;
+    padding: 16px;
+    text-align: center;
+    color: #edf2f4;
+    -webkit-text-stroke-width: 2px;
+    -webkit-text-stroke-color: #2b2d42;
+}
+
+form {
+    margin-bottom: 20px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+
+form input {
+    font-family: 'Press Start 2P', cursive;
+}
+
+#taskInput {
+    padding: 15px;
+    border-radius: 5px;
+    background-color: aliceblue;
+}
+
+
+#bntAdd {
+    padding: 10px 0 10px 0;
+}
+
+ol {
+    list-style: none;
+    padding: 0;
+    text-align: center;
+    color: #edf2f4;
+
+}
+
+li {
+    cursor: pointer;
+}
+
+li.completed {
+    text-decoration: line-through;
+}
