@@ -6,7 +6,7 @@
 }
 
 body {
-font-family: 'Press Start 2P', cursive;
+    font-family: 'Concert One', cursive;
 }
 
 h1 {
@@ -14,8 +14,6 @@ h1 {
     padding: 16px;
     text-align: center;
     color: #edf2f4;
-    -webkit-text-stroke-width: 2px;
-    -webkit-text-stroke-color: #2b2d42;
 }
 
 form {
@@ -27,7 +25,7 @@ form {
 }
 
 form input {
-    font-family: 'Press Start 2P', cursive;
+    fonfont-family: 'Concert One', cursive;
 }
 
 #taskInput {
